@@ -1,0 +1,9 @@
+--Preparing to recieve message
+rednet.open("right") --Change side to the side of your modem if required
+--Recieving the message
+local senderID, message, distance = rednet.recieve()
+print(message)
+--Printing the senderID
+print(senderID)
+
+

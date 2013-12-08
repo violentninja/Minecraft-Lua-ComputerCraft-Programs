@@ -1,0 +1,4 @@
+--Preparing the message sending
+rednet.open("right") --Change side to the side of your modem if required
+--Sending the message
+rednet.send(1, "Hello World!") --Change the reciever idea to the reciever computer's ID
