@@ -1,0 +1,5 @@
+rednet.open("right")
+local computerId = os.getComputerID()
+print(computerId)
+print("^^ Is the computer's ID")
+print("Hello my name is DisplayScreen. This is my only purpose :)!")
